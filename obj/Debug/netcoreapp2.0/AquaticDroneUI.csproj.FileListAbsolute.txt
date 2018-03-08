@@ -1,0 +1,12 @@
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\bin\Debug\netcoreapp2.0\app.db
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\bin\Debug\netcoreapp2.0\AquaticDroneUI.deps.json
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\bin\Debug\netcoreapp2.0\AquaticDroneUI.runtimeconfig.json
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\bin\Debug\netcoreapp2.0\AquaticDroneUI.runtimeconfig.dev.json
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\bin\Debug\netcoreapp2.0\AquaticDroneUI.dll
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\bin\Debug\netcoreapp2.0\AquaticDroneUI.pdb
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\obj\Debug\netcoreapp2.0\AquaticDroneUI.csproj.CoreCompileInputs.cache
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\obj\Debug\netcoreapp2.0\AquaticDroneUI.AssemblyInfoInputs.cache
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\obj\Debug\netcoreapp2.0\AquaticDroneUI.AssemblyInfo.cs
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\obj\Debug\netcoreapp2.0\AquaticDroneUI.dll
+C:\Users\Joost\Documents\GitHub\AquaticDroneUI\obj\Debug\netcoreapp2.0\AquaticDroneUI.pdb
