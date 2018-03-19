@@ -1,0 +1,108 @@
+body{
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+#accordion{
+    height: 100vh;
+}
+
+.navbar-brand {
+    color: white;
+    background-color: #00739e; 
+    width: 100%;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.headerTitle{
+    width: 100%;
+}
+
+.navbar-left-login{
+    background-color: #0088ba;
+    width: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;   
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar-login-link{
+    color: white;
+
+}
+
+.navbar-login-link2{
+    color: white;
+
+}
+
+.navbar-left{
+    height: 100vh;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    background-color: #00739e;
+}
+
+.card_body_collapse {
+    color: white;
+    background-color: #30353d;
+    width: 100%;
+    padding-left: 8%;
+    padding-top: 7%;
+    padding-bottom: 2%;  
+}
+
+.card_header_collapse{
+    width: 100%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 6%;
+    background-color: #0088ba;   
+}
+
+.btn_collapse{
+    color: white;
+} 
+
+.dropdown_arrow {
+    float: right;
+    margin-right: 2%;
+}
+
+.card-login{
+    width: 100%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 6%;
+    background-color: #0088ba;
+}
+
+.card_header_collapse .btn_collapse:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e253";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: white;         /* adjust as needed */
+}
+.card_header_collapse .btn_collapse.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e252";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: white;
+    text-decoration: unset;
+    background-color: transparent;
+}
+
+.drone_status {
+    float: left;
+    margin-right: 5%;
+}
