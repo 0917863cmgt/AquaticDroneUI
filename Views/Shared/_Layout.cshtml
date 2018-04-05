@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - AquaticDroneUI</title>
+    <title src="..\images\Trident_logo.png">@ViewData["Title"] - AquaticDroneUI</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -78,15 +78,13 @@
         </div>
     </nav>
 
+    <nav id="navbar-top" class="navbar-top col-md-10">
+        <div></div>
+    </nav>
+
     
 
-    <div class="container body-content col-md-6">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - AquaticDroneUI</p>
-        </footer>
-    </div>
+    
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
@@ -110,5 +108,13 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
+    <div class="container body-content col-md-9">
+        @RenderBody()
+        <hr />
+        <footer id="copyright">
+            <p>&copy; 2018 - AquaticDroneUI</p>
+        </footer>
+    </div>
 </body>
 </html>
