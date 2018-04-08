@@ -165,6 +165,8 @@ body{
     background-color: #FFFFFF;
     float:left;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+    padding: 0px !important;
+    margin: 0px !important;
 }
 
 .client{
@@ -173,6 +175,7 @@ body{
     float:right;
     margin-left: 50px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+    padding: 0px !important;
 }
 .row{
     width:100%;
@@ -232,4 +235,45 @@ body{
 .forgot-password-btn{
     margin-left: 2%;
     text-decoration: underline;
+}
+
+.grey{
+    background-color: rgba(216,216,216,0.34);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.normal{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #30353D;
+}
+
+h2{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00749C;
+    
+}
+
+.status_ball{
+    float: right;
+    padding-right: 10px;
+}
+.text_right{
+float: right;
+padding-right: 10px;
+}
+
+.client_image{
+    width:60%;
+    height:15vh;
+}
+
+.item{
+    color:white;
 }

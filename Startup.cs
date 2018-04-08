@@ -69,6 +69,14 @@ namespace AquaticDroneUI
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
+
+            //This tells Entity Framework which model classes are included in the data model. You're defining one entity set of Movie objects, which will be represented in the database as a Movie table.
+            services.AddDbContext<AquaticDronesContext>(options =>
+                  options.UseSqlite("Data Source=AquaticDrones.db"));
+
+            services.AddDbContext<ClientsContext>(options =>
+                  options.UseSqlite("Data Source=Clients.db"));
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
