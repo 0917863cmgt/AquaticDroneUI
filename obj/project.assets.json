@@ -13124,23 +13124,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/carlo/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Joost\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlo/Documents/CMGT/JaarDrie/Medialab/Final/AquaticDroneUI/AquaticDroneUI.csproj",
+      "projectUniqueName": "C:\\Users\\Joost\\Documents\\GitHub\\AquaticDroneUI\\AquaticDroneUI.csproj",
       "projectName": "AquaticDroneUI",
-      "projectPath": "/Users/carlo/Documents/CMGT/JaarDrie/Medialab/Final/AquaticDroneUI/AquaticDroneUI.csproj",
-      "packagesPath": "/Users/carlo/.nuget/packages/",
-      "outputPath": "/Users/carlo/Documents/CMGT/JaarDrie/Medialab/Final/AquaticDroneUI/obj/",
+      "projectPath": "C:\\Users\\Joost\\Documents\\GitHub\\AquaticDroneUI\\AquaticDroneUI.csproj",
+      "packagesPath": "C:\\Users\\Joost\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joost\\Documents\\GitHub\\AquaticDroneUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/carlo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Joost\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -13162,24 +13162,24 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.0.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.5"
+            "version": "[2.0.5, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.1"
+            "version": "[2.0.1, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.2"
+            "version": "[2.0.2, )"
           }
         },
         "imports": [
