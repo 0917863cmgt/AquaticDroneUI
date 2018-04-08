@@ -17,75 +17,6 @@
     </environment>
 </head>
 <body>  
-
-    <nav id="navbar-left" class="navbar-left col-md-2 navbar-fixed-left">
-        <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">AquaticDroneUI</a>
-        <div id="accordion">
-            <div class="card">
-                <div class="card_header_collapse" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="headingOne">
-                    <h5 class="mb-0">
-                        <a class="btn_collapse btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Overzicht
-                        </a>
-                    </h5>
-                </div>
-
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card_body_collapse">
-                        <img class="drone_status" src="..\images\ic_status\Groen.png"</img>
-                        <p class="item">Killer Drone</p>
-                    </div>
-                    <div class="card_body_collapse">
-                        <img class="drone_status" src="..\images\ic_status\Oranje.png"</img>
-                        <p class="item">Robocop Drone</p>
-                    </div>
-                    <div class="card_body_collapse">
-                        <img class="drone_status" src="..\images\ic_status\Rood.png"</img>
-                        <p class="item">Pacifist Drone</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_header_collapse" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="headingTwo">
-                <h5 class="mb-0">
-                    <a class="btn_collapse btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Cloudinputs
-                    </a>
-                </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card_body_collapse">
-                    <p class="item">text 2</p>
-                </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_header_collapse" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" id="headingThree">
-                <h5 class="mb-0">
-                    <a class="btn_collapse btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Instellingen
-                    </a>
-                </h5>
-                </div>
-                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                <div class="card_body_collapse">
-                    <p class="item">text 3</p>
-                </div>
-                </div>
-            </div>
-            @await Html.PartialAsync("_LoginPartial")
-        </div>
-    </nav>
-
-    <nav id="navbar-top" class="navbar-top col-md-10">
-        <div></div>
-    </nav>
-
-    
-
-    
-
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -109,12 +40,8 @@
 
     @RenderSection("Scripts", required: false)
 
-    <div class="container body-content col-md-9">
+    <div class="container body-content col-md-12">
         @RenderBody()
-        <hr />
-        <footer id="copyright">
-            <p>&copy; 2018 - AquaticDroneUI</p>
-        </footer>
     </div>
 </body>
 </html>
