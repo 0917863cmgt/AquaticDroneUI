@@ -1,0 +1,14 @@
+@using Microsoft.AspNetCore.Identity
+@using AquaticDroneUI.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+    <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" id="logoutForm" class="navbar-logout">
+        <ul class="nav navbar-nav navbar-left-login">
+            <li class="navbar-login-link2 col-md-6"><button type="submit" class="btn btn-link navbar-login-link">Log out</button></li>
+        </ul>
+    </form>
+
+
